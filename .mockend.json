@@ -10,7 +10,10 @@
             "regexp": "https://picsum\\.photos/seed/[0-9]{5}/480/480"
         },
         "product_name": {
-            "loremWords": {}
+            "loremWords": {
+                "minLength": 5,
+                "maxLength": 20
+            }
         },
         "product_price": {
             "int": {
