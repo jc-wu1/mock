@@ -1,0 +1,25 @@
+{
+    "Post": {
+        "id": {
+            "int": {
+                "min": 0,
+                "max": 100
+            }
+        },
+        "product_img": {
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+        },
+        "product_name": {
+            "loremWords": {
+                "minLength": 3,
+                "maxLength": 5
+            }
+        },
+        "product_price": {
+            "int": {
+                "min": 0,
+                "max": 100
+            }
+        }
+    }
+}
