@@ -1,5 +1,5 @@
 {
-    "Products": {
+    "posts": {
         "id": {
             "int": {
                 "min": 0,
