@@ -7,7 +7,7 @@
             }
         },
         "product_img": {
-            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+            "regexp": "https://picsum\\.photos/seed/[0-9]{5}/480/480"
         },
         "product_name": {
             "loremWords": {
